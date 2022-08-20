@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        #maps {
+            height: 460px;
+            width: 50%;
+            /* opacity: 0.4; */
+            border-radius: 10px;
+            margin: 50px 43px;
+            display: inline-block;
+        }
+
+        .right {
+            background-color: hwb(224.7 76.5% 5.1%);
+            /* border: 2px solid rebeccapurple; */
+            display: inline-block;
+            float: right;
+            width: 462px;
+            /* margin: -400px 110px; */
+            margin: -490px 78px;
+            border-radius: 40px;
+            display: block;
+        }
+
+        #message {
+            height: 94px;
+            width: 70%;
+            margin: 3px 35px;
+            border-radius: 4px;
+        }
+
+        #name {
+            margin: 13px 34px;
+            width: 70%;
+            height: 28px;
+            border-radius: 4px;
+        }
+
+        #email {
+
+            margin: 3px 34px;
+            width: 70%;
+            height: 28px;
+            border-radius: 4px;
+        }
+
+        #btn {
+            margin: 26px 109px;
+            width: 46%;
+            height: 40px;
+            border-radius: 6px;
+            border: none;
+            /* background: blue; */
+            background-color: hwb(224.6 57.6% 14.9%);
+
+            font-size: 18px;
+            transition: 1s;
+        }
+
+        #btn:hover {
+            background-color: rgb(45, 45, 151);
+            color: white;
+            transition: 1s;
+        }
+
+        #feedback {
+            padding: 10px 170px;
+            line-height: 2;
+            font-size: 28px;
+        }
+
+        .back {
+            float: right;
+            margin: -550px 150px;
+            width: 13%;
+            /* background: black; */
+            background-color: #24aae2;
+            height: 41px;
+            font-size: 18px;
+            border: none;
+            border-radius: 7px;
+        }
+
+        .back a {
+            /* float: right; */
+            /* margin: 20px 20px;  */
+            text-decoration: none;
+            color: white;
+        }
+        .back :hover
+        {
+            filter: invert(100%);
+        }
+    </style>
+</head>
+
+<body>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7208.710980816037!2d68.3625920225216!3d25.39290848568398!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x83d8b4e91f5aeb63!2sFG%20Degree%20College%20Hyd%20Cantt!5e0!3m2!1sen!2s!4v1660503837573!5m2!1sen!2s"
+        style="border:0; display: inline-block;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" id="maps">
+    </iframe>
+
+
+    <div class="right">
+        <span id="feedback">FeedBack</span>
+        <br> <label for="name" style="margin: 35px;
+        font-size: 20px;
+        ">
+            Name
+        </label><br>
+        <input type="text" name="" id="name"><br>
+        <label for="email" style="margin: 35px;
+        font-size: 20px;
+        ">Email</label><br>
+        <input type="text" name="" id="email"><br>
+        <label for="message" style="margin: 35px;
+        font-size: 20px;
+        ">Message</label><br>
+        <input type="text" name="" id="message">
+        <input type="button" name="" id="btn" value="Button">
+    </div>
+
+    <button class="back"><a href="../index.html">&lt;&lt; Goto Home</a></button>
+</body>
+
+</html>

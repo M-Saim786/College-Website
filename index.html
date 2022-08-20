@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+
+
+
+    <!-- Insert to your webpage before the </head> -->
+    <script src="sliderengine/jquery.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+    <script src="sliderengine/initslider-1.js"></script>
+    <!-- End of head section HTML codes -->
+
+
+
+    
+    <style>
+        body {
+            background-color: #edebeb;
+        }
+
+        .nav {
+            /* background-color: black; */
+            background-color: #24aae2;
+
+            height: 20%;
+            width: 1349px;
+            margin: -10px -8px;
+        }
+
+        .navbar {
+            display: inline-block;
+            /* background-color: black; */
+            margin: 19px -11px;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            margin: -15px 41px;
+            padding: 20px 0px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            /* background-color: blue; */
+            padding: 0px 12px;
+            transition: 0.5s;
+            margin: 2px;
+        }
+
+        .navbar li a:hover {
+            /* background-color: blue; */
+            border-radius: 20px;
+            transition: 0.5s;
+            font-size: 22px;
+        }
+
+        .right {
+            float: right;
+            margin: -36px 50px;
+            color: white;
+            display: inline-block;
+            /* border: 2px solid red;  */
+
+        }
+
+        #sear {
+            width: 3%;
+            filter: invert(100%);
+            float: right;
+            margin: -46px 64px;
+
+        }
+
+        #search {
+
+            /* float: right; */
+            width: 50%;
+            transition: 1s;
+            border: none;
+            color: white;
+            /* background-color: black; */
+            background-color: #24aae2;
+            border-bottom: 1px solid white;
+            margin-right: 130px;
+        }
+
+        #search:hover {
+            width: 80%;
+            transition: 1s;
+        }
+
+        .blog {
+            /* border: 2px solid red; */
+            display: inline-block;
+            width: 24%;
+            height: 370px;
+            margin-left: 90px;
+            margin-top: 100px;
+            border-radius: 12px;
+            /* background-color: green; */
+            background-color: white
+        }
+
+        .ser {
+            /* border: 2px solid red; */
+            margin-top: 120px;
+        }
+
+        .end {
+            background-color: #24aae2;
+            color: white;
+            height: 140px;
+            width: 1349px;
+            margin: -12px -8px;
+
+        }
+
+        #hr {
+            width: 50%;
+            transition: 0.5s;
+        }
+
+        #hr:hover {
+            width: 90%;
+            color: black;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+        #marquee
+        {
+            font-size: 30px;
+            background-color: cornflowerblue;
+            color: white;
+            line-height: 2;
+margin: 46px 50px;
+        }
+        #click
+        {
+            text-decoration: none;
+             color: black;
+        }
+        #click:hover
+        {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="nav">
+        <ul class="navbar">
+            <li><a href="./College web.html">Home</a></li>
+            <li><a href="./Components/About .Html">About Us</a></li>
+            <li><a href="./Components/Addmision .html">Addmissions</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="./Components/Contact.html" >Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="right">
+        <input type="search" name="" id="search" placeholder="Search Here..">
+    </div>
+    <img src="./PICS/images-removebg-preview.png" alt="" id="sear">
+
+                                        <!-- MoVING tEXT     -->
+    <marquee behavior="" direction="" id="marquee">Addmisions for Class First Year(XI) <a href="./Components/Addmision .html"  id="click" >Click Here</a> </marquee>
+
+<a href=""></a>
+
+    <!-- Insert to your webpage where you want to display the slider -->
+    <div class="amazingslider-wrapper" id="amazingslider-wrapper-1"
+        style="display:block;position:relative;max-width:900px;margin:33px auto 86px;">
+        <div class="amazingslider" id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                <li><img src="images/fg.jpg" alt="FG-Degree-CollegeHyderabad-Cantt"
+                        title="FG-Degree-CollegeHyderabad-Cantt" />
+                </li>
+                <li><img src="images/175105_203154696362471_5323689_o.jpg" alt="Girls Ground" title="Girls Ground" />
+                </li>
+                <li><img src="images/477124_426070174070921_54334780_o.jpg" alt="Teachers" title="Teachers" />
+                </li>
+                <li><img src="images/527692_398562020155070_1292132790_n.jpg" />
+                </li>
+                <li><img src="images/552462_398563343488271_2021456355_n.jpg" alt="Chemistry Labotary"
+                        title="Chemistry Labotary" />
+                </li>
+                <li><img src="images/559233_398566183487987_1226096103_n.jpg" />
+                </li>
+                <li><img src="images/480868_398570013487604_952713500_n.jpg" />
+                </li>
+            </ul>
+            <ul class="amazingslider-thumbnails" style="display:none;">
+                <li><img src="images/fg-tn.jpg" alt="FG-Degree-CollegeHyderabad-Cantt"
+                        title="FG-Degree-CollegeHyderabad-Cantt" /></li>
+                <li><img src="images/175105_203154696362471_5323689_o-tn.jpg" alt="Girls Ground" title="Girls Ground" />
+                </li>
+                <li><img src="images/477124_426070174070921_54334780_o-tn.jpg" alt="Teachers" title="Teachers" /></li>
+                <li><img src="images/527692_398562020155070_1292132790_n-tn.jpg" /></li>
+                <li><img src="images/552462_398563343488271_2021456355_n-tn.jpg" alt="Chemistry Labotary"
+                        title="Chemistry Labotary" /></li>
+                <li><img src="images/559233_398566183487987_1226096103_n-tn.jpg" /></li>
+                <li><img src="images/480868_398570013487604_952713500_n-tn.jpg" /></li>
+            </ul>
+            <div class="amazingslider-engine"><a href="http://amazingslider.com"
+                    title="Responsive JavaScript Slider">Responsive JavaScript Slider</a></div>
+        </div>
+    </div>
+    <!-- End of body section HTML codes -->
+
+    <!-- End OF Slider -->
+    <div class="ser">
+        <hr style="  float: left; width: 45%; margin-left: -1px;">
+        <h2 style="display: inline;margin-left: 22px; line-height: 0;">Services</h2>
+        <hr style="float: right; width: 45%; margin-right: 4px;">
+    </div>
+
+    <div class="blog">
+        <div>
+            <img src="./PICS/bank_chllan.jpg" alt="" style="height: 215px; width: 100%; display: block; border-radius: 12px;
+            " id="">
+        </div>
+
+        <div style="margin: 15px 16px;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet beatae maiores, magnam labore fuga
+                tenetur vel natus temporibus inventore consequuntur explicabo ut, esse iusto dolorem suscipit nesciunt
+                corrupti quos vitae.
+        </div>
+    </div>
+
+    <div class="blog">
+        <div>
+            <img src="./PICS/Syllabus & Model Papers.jpg" alt="" style="height: 215px; width: 100%; display: block; border-radius: 12px;
+            " id="">
+        </div>
+
+        <div style="margin: 15px 16px;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet beatae maiores, magnam labore fuga
+            tenetur vel natus temporibus inventore consequuntur explicabo ut, esse iusto dolorem suscipit nesciunt
+            corrupti quos vitae.
+        </div>
+    </div>
+
+    <div class="blog">
+        <div>
+            <img src="./PICS/result_2022.jpg" alt="" style="height: 215px; width: 100%; display: block; border-radius: 12px;
+            " id="">
+        </div>
+        <div style="margin: 15px 16px;">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet beatae maiores, magnam labore fuga
+    tenetur vel natus temporibus inventore consequuntur explicabo ut, esse iusto dolorem suscipit nesciunt
+    corrupti quos vitae.
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="end">
+
+        <h2 style=" margin: auto;
+width: 25%;
+margin-top: 60px;
+font-size: 30px;
+line-height: 2;
+margin-left: 550px ; align-items: center;">Thanks For Visiting</h2>
+        <hr id="hr">
+    </div>
+</body>
+
+</html>
